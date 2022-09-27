@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+
+body{
+    background: rgb(29, 148, 233);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+
+.nav{
+    /* list-style-type: none; */
+    /* display: flex; */
+    padding-left: 80px;
+    height: 30px;
+    width: auto;
+    background-color: rgb(56, 54, 54);
+}
+
+.navy{
+        /* display: inline-block; */
+        /* justify-content: space-between; */
+    padding-right: 30px;
+    color: whitesmoke;
+        /* height: 30px; */
+    font-size: 60%;
+        
+        
+} 
+
+.navimg{
+    width: 40px ;
+    /* height: auto ; */
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.bern{
+    width: 190px;
+    height: 220px;
+    position: absolute;
+    left: 10%;
+    top: 60px;
+
+}
+
+.listhed{
+    display: flex;
+    list-style: none;
+    
+}
+
+ .smoke{
+    width: 300px;
+    height: 90px;
+    padding-left: 400px;  
+    position: absolute; 
+    top: 10%;
+} 
+
+
+
+.plugplay{
+    position: absolute;
+    left: 40%;
+    top:23%;
+    color: rgb(214, 229, 238);
+    font-size: larger;
+} 
+
+.buildnow{
+    border: 2px solid white;
+    padding: 20px;
+    background-color: rgb(235, 164, 21);
+    color: whitesmoke;
+    border-radius: 15px;
+    position: absolute;
+    left: 45%;
+    top: 30%; 
+   
+} 
+
+.deadline{
+    width: auto;
+    height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 300px;
+}
+
