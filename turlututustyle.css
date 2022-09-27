@@ -10,12 +10,10 @@ body{
 ul{
     display: flex;
     list-style: none;
+    padding: 0;
 }
 
-
-.nav{
-    /* list-style-type: none; */
-    /* display: flex; */
+nav{
     padding-left: 80px;
     height: 30px;
     width: auto;
@@ -23,19 +21,15 @@ ul{
 }
 
 .navy{
-        /* display: inline-block; */
-        /* justify-content: space-between; */
+    display: inline-block;
+    margin:10px;
     padding-right: 30px;
     color: whitesmoke;
-        /* height: 30px; */
     font-size: 60%;
-        
-        
 } 
 
 .navimg{
-    width: 40px ;
-    /* height: auto ; */
+    width: 40px;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -45,32 +39,33 @@ ul{
     height: 220px;
     position: absolute;
     left: 10%;
-    top: 60px;
+    top: 100px;
 
 }
 
-.listhed{
-    display: flex;
-    list-style: none;
-    
+.header{
+    width: 100%;
+    margin: auto;
 }
 
- .smoke{
+.smoke{
+    display: block;
     width: 300px;
     height: 90px;
-    padding-left: 400px;  
-    position: absolute; 
-    top: 10%;
+    margin:auto;
+    margin-top: 40px;
 } 
 
 
 
 .plugplay{
-    position: absolute;
-    left: 40%;
-    top:23%;
+    text-align: center;
+    margin: auto;
     color: rgb(214, 229, 238);
     font-size: larger;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
 } 
 
 .buildnow{
@@ -79,18 +74,28 @@ ul{
     background-color: rgb(235, 164, 21);
     color: whitesmoke;
     border-radius: 15px;
-    position: absolute;
-    left: 45%;
-    top: 30%; 
-   
-} 
+    margin: auto;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
 .deadline{
     width: auto;
     height: 40px;
     background-color: whitesmoke;
     text-align: center;
-    padding-top: 10px;
-    margin-top: 300px;
+    font-weight: lighter;
+    margin:auto;
 }
 
+.p1{
+    padding: 10px;;
+}
+
+.facilities{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    
+}
